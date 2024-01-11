@@ -53,7 +53,8 @@ h1{
     font-size:var(--lg);
 }
 
-.contenido{
+.contenido{ 
+    display: grid;
     grid-template-columns: 1 1fr;
 }
 figure .img1{
@@ -69,13 +70,14 @@ figure .img1{
     
 }
 .imges{
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
 
 }
 .caja-imges img{
     
-width:150px ;
-height:150px ;
+width:220px ;
+height:190px ;
 border-radius:5%; 
 
 
